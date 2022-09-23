@@ -1,0 +1,50 @@
+body {
+	background: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #Bbda54;
+	display: table;
+	width: 100%;
+}
+
+nav li {
+	display: table-cell
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+
+header {
+	margin-left: 14px;
+}
+
+article {
+	text-align: left;
+	margin: 15px;
+	max-width: 80%;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+
+
+
+
+
+
+
