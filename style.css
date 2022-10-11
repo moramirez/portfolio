@@ -1,7 +1,31 @@
-.header {
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; 
+  margin-bottom: 30px;
+}
+
+#down
+{
+ position: absolute;
+ top:85vh;
+ padding: 20px;
+ font-size: 2.5em;
+}
+#down:hover
+{
+ cursor: pointer;
+ background-color: #eee;
+ opacity: 0.8;
+}
+
+.hi {
     margin-left: 24px;
     color: hsl(0, 0%, 100%);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: ;
     font-size: 54px;
     font-weight: 400;
     font-style: normal;
@@ -14,11 +38,13 @@
   overflow: hidden;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: normal;
+  float: right;
+  position: fixed;
+  top: 0;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
   color: #ffffff;
   padding: 14px 16px;
   text-decoration: none;
@@ -61,19 +87,22 @@ body {
     }
 }
 
-h2 {
+h1 {
+  font-size: 100px;
+}
+
+h3 {
   background-color: black;
   color: hsl(0, 0%, 100%);
   font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
   font-weight: normal;
   text-align: center;
-  font-size: 2rem;
+  font-size: 30px;
   text-transform: capitalize;
   width: 700px;
-  height: 200px;
+  height: 100px;
   padding: 50px;
   margin: auto;
-
 }
 
 #footer  {
@@ -82,7 +111,6 @@ h2 {
   bottom: 0;
   width: 100%;
   height: 40px;
-
 }
 
 ul{
@@ -142,4 +170,15 @@ ul li a:hover:before{
   transform-origin:left;
   transform:scaleX(1);
 }
+
+
+.resume {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  bottom:0;
+}
+
 
